@@ -29,3 +29,11 @@ before
 after
 
 > Server startup in 50872 ms
+
+## Troubleshooting
+Older SAP Commerce Cloud releases do not provide Tanuki wrapper for ARM64. Make sure you have this file:
+* `core-customize/hybris/bin/platform/resources/tanukiwrapper/bin/wrapper-macosx-arm-64`
+
+along with the old (MacOS Intel x64) ones
+* `core-customize/hybris/bin/platform/resources/tanukiwrapper/bin/wrapper-macosx-universal-32`
+* `core-customize/hybris/bin/platform/resources/tanukiwrapper/bin/wrapper-macosx-universal-64`
