@@ -39,7 +39,10 @@ along with the old (MacOS Intel x64) ones
 * `core-customize/hybris/bin/platform/resources/tanukiwrapper/bin/wrapper-macosx-universal-32`
 * `core-customize/hybris/bin/platform/resources/tanukiwrapper/bin/wrapper-macosx-universal-64`
 
-  ### JCO libraries blocked by Mac OSX
-  `libsapjco3.dylib` blocked by Mac OSX Gatekeeper (ref. https://disable-gatekeeper.github.io/) - they can be whitelisted from OSX Settings
-  <img width="803" alt="image" src="https://github.com/nicolabeghin/sap-commerce-apple-silicon/assets/2743637/65dc5c78-cedf-4d6b-8a12-d7fef5d9aa22">
+### JCO libraries blocked by Mac OSX
+`libsapjco3.dylib` blocked by Mac OSX Gatekeeper (ref. https://disable-gatekeeper.github.io/) - they can be whitelisted from OSX Settings
+
+<img width="292" alt="image" src="https://github.com/nicolabeghin/sap-commerce-apple-silicon/assets/2743637/30c981a7-683f-4ce9-9953-d048e8b2b99d">
+
+<img width="803" alt="image" src="https://github.com/nicolabeghin/sap-commerce-apple-silicon/assets/2743637/65dc5c78-cedf-4d6b-8a12-d7fef5d9aa22">
 
