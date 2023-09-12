@@ -31,9 +31,15 @@ after
 > Server startup in 50872 ms
 
 ## Troubleshooting
+### Tanuki wrapper
 Older SAP Commerce Cloud releases do not provide Tanuki wrapper for ARM64. Make sure you have this file:
 * `core-customize/hybris/bin/platform/resources/tanukiwrapper/bin/wrapper-macosx-arm-64`
 
 along with the old (MacOS Intel x64) ones
 * `core-customize/hybris/bin/platform/resources/tanukiwrapper/bin/wrapper-macosx-universal-32`
 * `core-customize/hybris/bin/platform/resources/tanukiwrapper/bin/wrapper-macosx-universal-64`
+
+  ### JCO libraries blocked by Mac OSX
+  `libsapjco3.dylib` blocked by Mac OSX Gatekeeper (ref. https://disable-gatekeeper.github.io/) - they can be whitelisted from OSX Settings
+  <img width="803" alt="image" src="https://github.com/nicolabeghin/sap-commerce-apple-silicon/assets/2743637/65dc5c78-cedf-4d6b-8a12-d7fef5d9aa22">
+
