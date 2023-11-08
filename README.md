@@ -9,7 +9,7 @@ Project without requirement to connect to SAP ECC/S4 RFC (JCO): you don't need t
 ## Project with `sapcorejco` dependency
 Project with requirement to connect to SAP ECC/S4 RFC (JCO). In february 2023 [JCO 3.1.7](https://launchpad.support.sap.com/#/notes/3276799) has been released with Mac ARM64 (Apple Silicon) support. In order to leverage this:
 1. download JCO 3.1.7 for `Apple MacOS 64-bit ARM` from https://support.sap.com/en/product/connectors/jco.html#Download 
-2. replace the content of the JCO zip (inside the zip) in `hybris/bin/modules/core-customize/hybris/bin/modules/sap-framework-core/sapcorejco/lib/darwinintel64` 
+2. replace the content of the JCO zip (inside the zip) in `core-customize/hybris/bin/modules/sap-framework-core/sapcorejco/lib/darwinintel64` 
 <img width="326" alt="image" src="https://user-images.githubusercontent.com/2743637/222375200-977dc3ad-665a-45e4-9603-72f8e42da860.png">
 
 3. download SAPMachine 17 for `MacOS aarch64` in place of `MacOS x64` from https://sap.github.io/SapMachine/ <img width="660" alt="image" src="https://user-images.githubusercontent.com/2743637/222375258-16e0c04e-40c8-41fe-a138-bc86fc99f2c9.png">
